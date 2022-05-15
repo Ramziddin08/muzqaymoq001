@@ -1,0 +1,59 @@
+.services{
+    padding: 62px 0;
+    background-color: #e5e5e538;
+
+    &__list{
+     
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        height: 200px;
+        width: 250px;
+        border-radius: 7px;
+        background: #FFFFFF;
+        align-items: center;
+        padding: 35px 26px;
+        box-sizing: border-box;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin-right: 39px;
+        &__item:last-child{
+            margin: 0;
+        }
+
+    }
+    &__img{
+        padding: 0;
+        margin: 0;
+        height: 44px;
+        width: 51px;
+        margin-left: 70px;
+        margin-bottom: 24px;
+
+    }
+    &__header4{
+        padding: 0;
+        margin: 0;
+        width: 172px;
+        font-family: Hind Madurai;
+        font-style: SemiBold;
+        font-size: 20px;
+        vertical-align: Top;
+        text-align: center;
+        margin-bottom:9px;
+    }
+    &__paragraph{
+        padding: 0;
+        margin: 0;
+        width: 198px;
+        font-family: Hind Madurai;
+        font-style: Regular;
+        font-size: 14px;
+        text-align: center;
+        
+    }
+}

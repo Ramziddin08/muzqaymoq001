@@ -1,0 +1,52 @@
+.burgerking{
+    background: #F8EDF0;
+  
+    
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+       align-items: center;
+       background-image: url(../../img/section2-image.png);
+       background-repeat: no-repeat;
+       background-position:center right -7px;
+    }
+    &__leftside{
+        margin-top: 60px;
+        padding: 141px 0px;
+
+    }
+    &__header2{ 
+        margin: 0;
+        padding: 0;
+        width: 340px;
+        margin-bottom: 17px;
+        font-family: Hind Madurai;
+        font-style: SemiBold;
+        font-size: 44.2px;
+        line-height: 49px;
+        line-height: 80.07%;    
+
+    }
+    &__paragraph{
+        width: 442px;
+        font-family: Roboto;
+        font-style: Regular;   
+        font-size: 16px;
+        line-height: 24px;
+        line-height: 128%;
+        text-align: Left;
+        vertical-align: Top;
+        margin-bottom: 30px;
+        opacity: 60%;
+         }
+         &__button{
+            margin-top: 30px;
+            border: none;
+            width: 165px;
+            height: 49px;
+            border-radius: 5px;
+            background-color: var(--buttoncolor);
+            color: #FAFAFA;
+         }
+}

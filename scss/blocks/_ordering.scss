@@ -1,0 +1,92 @@
+.ordering{
+    background-color: #F8EDF0;
+    height: 639px;
+    position: relative;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        width: 305px;
+        height: 627px;
+        border: 1px solid #cd121200;
+        border-radius:30px ;
+    }
+    &__rightside{
+        margin-top: 70px;
+        margin-left: 134px;
+    }
+    &__header2{
+        margin: 0;
+        padding: 0;
+        width: 625px;
+        font-family: Roboto;
+        font-style: Medium;
+        font-size: 44.2px;
+        line-height: 52px;
+        line-height: 100%;
+        text-align: Left;
+        vertical-align: Top;
+        fill: Solid;
+        color: #000000;
+    }
+    &__paragraph{
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        width: 610px;
+        font-family: Roboto;
+        font-style: Regular;
+        font-size: 18px;
+        line-height: 21px;
+        line-height: 100%;
+        text-align: Left;
+        vertical-align: Top;
+        letter-spacing: 1%;
+        opacity: 70%;
+    }
+    &__selection1{
+        display: flex;
+    }
+    &__touch{
+        width: 11px;
+        height: 16px;
+        margin: 9px;
+    }
+    &__touchbg{
+        border: 1px solid #fff;
+        background-color: #fff;
+        width: 30px;
+        height: 30px;
+        margin-top: 29px;
+    }
+
+    &__touchp{
+        margin: 0;
+        padding: 0;
+        width: 180px;
+        margin-top: 35px;
+        margin-left: 10px;
+        font-family: Roboto;
+        font-style: Regular;
+        font-size: 22px;
+        line-height: 26px;
+        line-height: 100%;
+        text-align: Left;
+        vertical-align: Top;
+    }
+    &__google{
+        height: 77px;
+        width: 200px;
+    }
+    &__appstore{
+         height: 88px;
+         width: 175px;
+    }
+
+}

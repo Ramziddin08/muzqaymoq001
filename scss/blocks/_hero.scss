@@ -1,0 +1,60 @@
+.hero{
+    background-color: var(--bgcolor);
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title{
+        margin: 0;
+        padding: 0;
+        font-family: Roboto;
+        font-style: Medium;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: Left;
+        vertical-align: Top;
+        letter-spacing:  10%;
+    }
+    &__header1{
+        max-width:665px;
+        font-family: Fredoka One;
+        font-style: Regular;
+        font-size: 57.33px;
+        line-height: 69px;
+        text-align: Left;
+        vertical-align: Top;
+       
+    }
+    &__title2{
+        max-width: 523px;
+        margin: 0;
+        padding: 0;
+        font-family: Hind Madurai;
+        font-style: Regular;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: Left;
+        vertical-align: Top;
+    }
+    &__img{
+        margin: 0;
+        padding: 0;
+        max-width: 500px;
+        margin-right: 110px;
+
+    }
+    &__button{
+        margin-top: 30px;
+        border: none;
+        width: 165px;
+        height: 49px;
+        border-radius: 5px;
+        background-color: var(--buttoncolor);
+        color: #FAFAFA;
+    }
+
+    
+
+}

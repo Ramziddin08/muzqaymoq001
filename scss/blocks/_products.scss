@@ -1,0 +1,123 @@
+.products{
+    background-color:#ebebeb10;
+
+    // &__container{
+
+    // }
+    &__header2{
+        margin: 0;
+        padding: 137px 681px 0 450px;
+        width: 265px;
+        font-family: Hind Madurai;
+        font-style: SemiBold;
+        font-size: 44.2px;
+        line-height: 61px;
+        line-height: 100%;
+        text-align: center;
+        vertical-align: Top;
+        color: #150101db;
+
+        
+    }
+    &__list{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 64px 200px 50px 200px;
+    }
+    &__item{
+        font-family: Roboto;
+        font-style: Medium;
+        font-size: 18px;
+        line-height: 21px;
+        line-height: 100%;
+        text-align: Left;
+        vertical-align: Top;
+        
+    }
+    &__link{
+        text-decoration: none;
+        color: #000000;
+        opacity: 60%;
+    }
+    &__active :hover{
+       border-bottom: 5px solid #D64374;
+       color: #000000;
+    
+    }
+
+    &__ice{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__iceimg{
+        width: 580px;
+        height: 415px;
+
+    }
+    &__iceheader3{
+        width: 152px;
+        margin: 0;
+        padding: 0;
+        font-family: Hind Madurai;
+        font-style: Bold;
+        font-size: 26px;
+        line-height: 36px;
+        line-height: 100%;
+        text-align: Left;
+        vertical-align: Top;
+    }
+    &__iceparagraph{
+        margin-top: 11px;
+        margin-right: 85px;
+        width: 454px;
+        font-family: Roboto;
+        font-style: Regular;
+        font-size: 16px;
+        Line-height: 24px;
+        Line-height: 128%;
+        text-align: Left;
+        vertical-align: Top;
+        opacity: 70%;
+    }
+    &__cost{
+        display: flex;
+        // justify-content: space-around;
+        // align-items: center;
+    }
+    &__cost1{
+        width: 71px;
+        font-family: Hind Madurai;
+        font-style: Medium;
+        font-size: 26px;
+        Line-height: 36px;
+        Line-height: 100%;
+        text-align: Left;
+        vertical-align: Top;
+       
+    }
+    &__cost2{
+        width: 58px;
+        font-family: Hind Madurai;
+        padding-top: 9px;
+        padding-left: 5px;
+        font-style: Medium;
+        font-size: 20px;
+        Line-height: 28px;
+        Line-height: 100%;
+        text-align: Left;
+        vertical-align: Top;
+        opacity: 70%;
+    }
+    &__button{
+        margin-top: 30px;
+        border: none;
+        width: 165px;
+        height: 49px;
+        border-radius: 5px;
+        background-color: var(--buttoncolor);
+        color: #FAFAFA;
+    }
+    
+   
+}
